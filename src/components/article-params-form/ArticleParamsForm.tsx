@@ -95,8 +95,6 @@ export const ArticleParamsForm = ({
 						}
 					/>
 					<div className={clsx([styles.space, styles['space_50']])}></div>
-					<Separator />
-					<div className={clsx([styles.space, styles['space_50']])}></div>
 					<RadioGroup
 						title={'Размер шрифта'}
 						options={fontSizeOptions}
@@ -109,7 +107,9 @@ export const ArticleParamsForm = ({
 						}
 						name={''}
 					/>
+
 					<div className={clsx([styles.space, styles['space_50']])}></div>
+
 					<Select
 						title={'Цвет шрифта'}
 						options={fontColors}
@@ -121,6 +121,7 @@ export const ArticleParamsForm = ({
 							}))
 						}
 					/>
+					<Separator />
 					<div className={clsx([styles.space, styles['space_50']])}></div>
 					<Select
 						title={'Цвет фона'}
